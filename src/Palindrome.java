@@ -5,8 +5,9 @@ public class Palindrome {
     }
     public static boolean isPal(String s){
         int st = 0, e = s.length()-1;
-        while (st<e&& s.charAt(st++) != s.charAt(e--)) return false;
-
-
+        while(st<e){
+            if(s.charAt(st++) != s.charAt(e--)) return false;
+        }
+        return true;
     }
 }
