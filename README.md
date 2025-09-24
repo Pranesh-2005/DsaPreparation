@@ -1,7 +1,7 @@
 
 # DsaPreparation
 
-# DsaPreparation 🚀
+# DsaPreparation 🚀 -
 
 Code of the DSA Cheat Sheet
 
